@@ -1,0 +1,69 @@
+# Xcode
+DerivedData/
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+# Swift Package Manager
+/.build/
+/Packages/
+/Package.pins
+/Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# SwiftPM binary artifacts
+.artifacts/
+
+# Archives
+*.xcarchive
+
+# Xcode's backup snapshots
+*.xcscmblueprint
+
+# Generated workspace schemes
+xcshareddata/WorkspaceSettings.xcsettings
+
+# IDE workspace logs
+xcshareddata/IDETestRunSession*
+
+# App Thinning
+*.ipa
+
+# Temporary
+*.tmp
+
+# Logs
+*.log
+
+# User-specific
+*.swp
+*.swo
+
+# DS_Store
+.DS_Store
+
+# Environment variables / secrets
+*.xcconfig
